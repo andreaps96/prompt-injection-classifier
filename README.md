@@ -59,18 +59,3 @@ The model converged in ~1 epoch (600 steps) with early stopping, indicating the 
 └── requirements.txt
 ```
 
-## How to Run
-
-```bash
-pip install -r requirements.txt
-```
-
-Open `fine_tune.ipynb` in Google Colab (GPU recommended) or Jupyter, and update the dataset path:
-
-```python
-df = pd.read_csv('path/to/your/dataset.csv')  # columns: domanda, label
-```
-
-## Stack
-
-Python, PyTorch, Hugging Face Transformers, Optimum, ONNX Runtime, scikit-learn, pandas, matplotlib, seaborn
